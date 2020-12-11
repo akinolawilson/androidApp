@@ -73,12 +73,12 @@ __Note__: Downloads _base_ version, change to _full_ for extended Kivy library; 
 
 # Files:
 - __requirements.txt__: use ```console user@user_name:~$ pip3 install -r requirements.txt ```
--kivy_calculator.py: Main demonstrative calculator application
--kivy_displaying_image.py: How to display an image
--kivy_events.py: Event handling with kivy
--kivy_Hello_Kivy.py: _Hello_ _World!_
--kivy_KV_language.py: KV language; separating logic from aesthetics
--kivy_project: Virtual environment
--kivy_UI_layout.py: Kivy aesthetics
--app: Folder containing _'main.py'_(same as kivy_calculator.py, but renamed) and _buildozer.spec_ file 
--buildozer: Package for compiling applications 
+- kivy_calculator.py: Main demonstrative calculator application
+- kivy_displaying_image.py: How to display an image
+- kivy_events.py: Event handling with kivy
+- kivy_Hello_Kivy.py: _Hello_ _World!_
+- kivy_KV_language.py: KV language; separating logic from aesthetics
+- kivy_project: Virtual environment
+- kivy_UI_layout.py: Kivy aesthetics
+- app: Folder containing _'main.py'_(same as kivy_calculator.py, but renamed) and _buildozer.spec_ file 
+- buildozer: Package for compiling applications 
