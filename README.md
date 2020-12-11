@@ -1,6 +1,6 @@
 # Android application: Calculator
 
-Kivy is a framework for building mobile applications in Python. This repository illustrates some of the basic aspects of app development such as events, labels and layouts. Finally, a simply calculator is produced in Kivy and complied to work for android.
+Kivy is a framework for building mobile applications in Python. This repository illustrates some of the basic aspects of app development such as events, labels and layouts. Finally, a simple calculator is produced in Kivy and complied to work for android.
 
 Note that Kivy works for Python 3.6 and prior versions. 
 
@@ -36,7 +36,7 @@ or
 ```console
 user@user_name:~$ source kivy_project/bin/activate 
 ```
-(which does exactly the same thing).
+(which does the same thing).
 You can make sure you are now working with Python 3
 ```console
 user@user_name:~$ python3 --version 
@@ -75,7 +75,7 @@ __Note__: Downloads _base_ version, change to _full_ for extended Kivy library; 
 - __requirements.txt__: use ```console user@user_name:~$ pip3 install -r requirements.txt ```
 - kivy_calculator.py: Main demonstrative calculator application
 - kivy_displaying_image.py: How to display an image
-- kivy_events.py: Event handling with kivy
+- kivy_events.py: Event handling with Kivy
 - kivy_Hello_Kivy.py: _Hello_ _World!_
 - kivy_KV_language.py: KV language; separating logic from aesthetics
 - kivy_project: Virtual environment
