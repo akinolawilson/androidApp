@@ -72,7 +72,7 @@ python3 -m pip install kivy[base]
 __Note__: Downloads _base_ version, change to _full_ for extended Kivy library; audo, visual etc.
 
 # Files:
-- __requirements.txt__: use ```console user@user_name:~$ pip3 install -r requirements.txt ```
+- __requirements.txt__: use ```user@user_name:~$ pip3 install -r requirements.txt ```
 - kivy_calculator.py: Main demonstrative calculator application
 - kivy_displaying_image.py: How to display an image
 - kivy_events.py: Event handling with Kivy
