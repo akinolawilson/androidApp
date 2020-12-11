@@ -23,7 +23,8 @@ user@user_name:~$ sudo apt install python3-pip
 ```console
 user@user_name:~$ sudo pip3 install virtualenv
 ```
-#### Step 4: Launch your Python 3 virtual environment, here the name of my virtual environment will be _kivy_project_. __Note__: Python2==virtualenv|Python3==venv
+#### Step 4: Launch your Python 3 virtual environment, here the name of my virtual environment will be _kivy_project_.
+__Note__: For Python2 use __virtualenv__ and Python3 use __venv__
 ```console
 user@user_name:~$ venv -p python3 kivy_project
 ```
@@ -63,5 +64,21 @@ sudo apt-get install -y \
     gstreamer1.0-plugins-base \
     gstreamer1.0-plugins-good
 ```
+Installing Kivy: 
+```console
+user@user_name:~$
+python3 -m pip install kivy[base]
+```
+__Note__: Downloads _base_ version, change to _full_ for extended Kivy library; audo, visual etc.
 
-
+# Files:
+- __requirements.txt__: use ```console user@user_name:~$ pip3 install -r requirements.txt ```
+-kivy_calculator.py: Main demonstrative calculator application
+-kivy_displaying_image.py: How to display an image
+-kivy_events.py: Event handling with kivy
+-kivy_Hello_Kivy.py: _Hello_ _World!_
+-kivy_KV_language.py: KV language; separating logic from aesthetics
+-kivy_project: Virtual environment
+-kivy_UI_layout.py: Kivy aesthetics
+-app: Folder containing _'main.py'_(same as kivy_calculator.py, but renamed) and _buildozer.spec_ file 
+-buildozer: Package for compiling applications 
