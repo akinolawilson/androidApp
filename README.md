@@ -33,12 +33,15 @@ or
 ```console
 user@user_name:~$ source kivy_project/bin/activate 
 ```
-(which does exactly the same thing)
-
-#### you can make sure you are now working with Python 3
+(which does exactly the same thing).
+You can make sure you are now working with Python 3
 ```console
 user@user_name:~$ python3 --version 
 ```
+###
+Install: 
+```console
+user@user_name~$ 
 # Content
 <br>
 
